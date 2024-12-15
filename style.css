@@ -1,7 +1,42 @@
-.h1{
-  background-color: aliceblue;
-    color: black;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
+body{
+  background-color: rgb(232, 214, 186);
+}
+
+a{
+  text-decoration: none;
+}
+h3{
+  font-family: "Montserrat", sans-serif;
+}
+
+.container{
+  width: 80;
+  margin: 0px auto;
+}
+
+.header-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 50px;
+  
+}
+
+.iphone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
